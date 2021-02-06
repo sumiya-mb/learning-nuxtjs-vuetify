@@ -1,4 +1,4 @@
-# clent
+# client
 
 ## Build Setup
 
