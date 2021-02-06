@@ -1,12 +1,11 @@
 <template>
-  <v-container class="Hero">
+  <v-container class="Hero container">
     <div class="text-container">
       <h1 class="header">Find your Fire Extinguisher</h1>
-      <p class="snippet">lorem ipsum dolor sit amet, consectetur adipisicing elit. aspernatur atque cupiditate sed
-        suscipit vel! nesciunt, omnis, repellendus. error exercitationem inventore iste itaque minima molestias nemo
-        odio officia placeat quaerat. quod.</p>
-      <button class="button btn">Start looking</button>
-  </div>
+      <p class="snippet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto illum quidem asperiores, cum nisi aperiam eius ipsa sapiente odit!</p>
+      <button class="button btn">Start Looking</button>
+    </div>
+    <img class="image" src="~assets/svg/fire-extinguisher.svg" alt="fire extinguisher">
   </v-container>
 </template>
 
@@ -19,31 +18,27 @@ export default {}
   height: 50vh;
   position: relative;
   display: flex;
-  padding: 5rem 0;
+  padding: 2rem 15rem;
   align-items: flex-start;
   justify-content: space-between;
 }
-
 .text-container {
   width: 50%;
   margin-top: 4rem;
 }
-
 .header {
   font-weight: 900;
-  font-size: 5rem;
+  font-size: 2rem;
 }
-
 .snippet {
   color: grey;
-  font-size: 1.25rem;
+  font-size: 1rem;
+  margin: 1rem 0;
 }
-
 .image {
-  width: 27.5rem;
-  margin-top: 2rem;
+  width: 15rem;
+  margin-top: 2.25rem;
 }
-
 .overlay {
   background: rgba(0, 0, 0, 0);
   position: absolute;
@@ -51,7 +46,6 @@ export default {}
   height: 100%;
   top: 0;
 }
-
 .button {
   padding: 1rem 4rem;
   border-radius: 100rem;
@@ -61,11 +55,9 @@ export default {}
   font-weight: 700;
   transition: 0.5s;
 }
-
 .button:hover {
   width: 21.5rem;
 }
-
 @media (max-width: 500px) {
   .Hero {
     height: 40vh;

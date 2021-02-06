@@ -1,12 +1,11 @@
 <template>
- <v-container>
-   <Hero />
- </v-container>
+  <v-container>
+    <Hero/>
+    <LargeCardDisplay/>
+  </v-container>
 </template>
 
 <script>
 
-export default {
-
-}
+export default {}
 </script>
