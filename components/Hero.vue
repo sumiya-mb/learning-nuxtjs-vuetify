@@ -7,6 +7,7 @@
     </div>
     <img class="image" src="~assets/svg/fire-extinguisher.svg" alt="fire extinguisher">
     <p>this is a test</p>
+    <p>aaaaaaaa</p>
   </v-container>
 </template>
 
