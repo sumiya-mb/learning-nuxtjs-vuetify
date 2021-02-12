@@ -6,6 +6,7 @@
       <button class="button btn">Start Looking</button>
     </div>
     <img class="image" src="~assets/svg/fire-extinguisher.svg" alt="fire extinguisher">
+    <p>this is a test</p>
   </v-container>
 </template>
 
