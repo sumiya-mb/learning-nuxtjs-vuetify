@@ -1,14 +1,26 @@
 vue
 <template>
   <div class="container">
-    <h4 class="header">Top rated Fire Extinguisher in Niagara</h4>
-    <p class="snippent">User say these are the best fire extinguishers to rent if your house is burning down.</p>
-    <div class="cards-container"></div>
+    <h4 class="header">
+      {{ cardsSection.title }}
+    </h4>
+    <p class="snippet" >
+      {{ cardsSection.snippet }}
+    </p>
+    <div class="cards-container">
+      <LargeCard
+        v-for="card in cardsSection.cards"
+        :key="card.image"
+        :card="card"
+      />
+    </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: ['cardsSection']
+}
 </script>
 
 <style scoped>
