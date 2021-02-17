@@ -21,11 +21,13 @@ export default {
 .container {
   padding: 2rem 0
 }
+
 .header {
   font-weight: 700;
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
+
 .card-container {
   display: flex;
   justify-content: space-between;

@@ -1,4 +1,3 @@
-vue
 <template>
   <div class="container">
     <h4 class="header">
@@ -26,7 +25,7 @@ export default {
 <style scoped>
 .container {
   margin-top: 2rem;
-  padding: 0 15rem;
+
 }
 
 .header {
