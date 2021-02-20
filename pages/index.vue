@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Nav/>
     <v-container>
       <Hero/>
       <LargeCardDisplay
