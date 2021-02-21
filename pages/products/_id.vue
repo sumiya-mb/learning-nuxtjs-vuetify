@@ -6,7 +6,9 @@
         <div class="info-box">
           <h1>{{ product.title }}</h1>
           <p class="snippet">{{ product.snippet }}</p>
-          <RentModal />
+          <RentModal
+            :product="product"
+          />
         </div>
       </div>
       <div class="whats-included-container">
@@ -34,9 +36,9 @@
       </div>
       <Reviews />
     </div>
-    <div v-else class="container padding">
-      Page not found
-    </div>
+<!--    <div v-else class="container padding">-->
+<!--      Page not found-->
+<!--    </div>-->
   </div>
 </template>
 

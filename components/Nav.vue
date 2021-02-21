@@ -12,11 +12,11 @@
       <v-spacer></v-spacer>
 
       <v-list class="items">
-        <NuxtLink to="products" class="nav_text">Products</NuxtLink>
+        <NuxtLink to="/products" class="nav_text">Products</NuxtLink>
       </v-list>
 
       <v-list class="items">
-        <NuxtLink to="my-items" class="nav_text">My Items</NuxtLink>
+        <NuxtLink to="/my-items" class="nav_text">My Items</NuxtLink>
       </v-list>
 
       <v-menu
